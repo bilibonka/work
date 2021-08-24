@@ -1,0 +1,485 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: url("../fonts/Montserrat-Light.woff2");
+  src: url("../fonts/Montserrat-Light.woff2") format("woff2"), url("../fonts/Montserrat-Light.woff") format("woff"), url("../fonts/Montserrat-Light.ttf") format("ttf");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url("../fonts/Montserrat-Regular.woff2");
+  src: url("../fonts/Montserrat-Regular.woff2") format("woff2"), url("../fonts/Montserrat-Regular.woff") format("woff"), url("../fonts/Montserrat-Regular.ttf") format("ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url("../fonts/Montserrat-Medium.woff2");
+  src: url("../fonts/Montserrat-Medium.woff2") format("woff2"), url("../fonts/Montserrat-Medium.woff") format("woff"), url("../fonts/Montserrat-Medium.ttf") format("ttf");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url("../fonts/Montserrat-Semibold.woff2");
+  src: url("../fonts/Montserrat-Semibold.woff2") format("woff2"), url("../fonts/Montserrat-Semibold.woff") format("woff"), url("../fonts/Montserrat-Semibold.ttf") format("ttf");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url("../fonts/Montserrat-BlackItalic.woff2");
+  src: url("../fonts/Montserrat-BlackItalic.woff2") format("woff2"), url("../fonts/Montserrat-BlackItalic.woff") format("woff"), url("../fonts/Montserrat-BlackItalic.ttf") format("ttf");
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url("../fonts/Montserrat-BoldItalic.woff2");
+  src: url("../fonts/Montserrat-BoldItalic.woff2") format("woff2"), url("../fonts/Montserrat-BoldItalic.woff") format("woff"), url("../fonts/Montserrat-BoldItalic.ttf") format("ttf");
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'SavoyeLetPlain';
+  src: url("../fonts/SavoyeLETPlain.woff2");
+  src: url("../fonts/SavoyeLETPlain.woff2") format("woff2"), url("../fonts/SavoyeLETPlain.woff") format("woff");
+}
+
+body {
+  background: url(../img/Group66.webp);
+  background-color: #000000;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  letter-spacing: 0.03em;
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+.wrapper {
+  max-width: 1500px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+input[type='number'],
+input[type="number"]:hover,
+input[type="number"]:focus {
+  -webkit-appearance: none;
+  appearance: none;
+  -moz-appearance: textfield;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  z-index: 4;
+}
+
+.logo {
+  font-weight: 700;
+  font-style: italic;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+.navBar {
+  max-width: 310px;
+  width: 100%;
+  height: 142px;
+}
+
+.navList {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 100%;
+}
+
+.navElement a {
+  color: inherit;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.navElement a:hover {
+  text-decoration: underline;
+}
+
+.sectionTitlePage {
+  margin-top: 180px;
+  margin-bottom: 160px;
+  position: relative;
+  z-index: 4;
+}
+
+.titleAreasWork,
+.titleH4 {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.titleMain {
+  font-size: 50px;
+  font-weight: 900;
+  font-style: italic;
+  margin-bottom: 60px;
+  text-transform: uppercase;
+  width: 970px;
+}
+
+.leaveReview {
+  font-size: 30px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.leaveReview:hover {
+  text-decoration: underline;
+}
+
+.sectionWhatDoing {
+  position: relative;
+  z-index: 4;
+}
+
+.sectionWhatDoing * {
+  letter-spacing: 0.05em;
+}
+
+.titleH3 {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.titleH4WhatDoing {
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.WhatDoingItem {
+  padding: 15px 30px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  background: inherit;
+  cursor: pointer;
+  -webkit-transition: all .2s;
+  -o-transition: all .2s;
+  transition: all .2s;
+}
+
+.WhatDoingItem:hover {
+  background: #fff;
+  color: #000;
+  -webkit-transition: all .2s;
+  -o-transition: all .2s;
+  transition: all .2s;
+}
+
+.blockWhatDoing {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 20px;
+}
+
+.wrapPlanetarySystem {
+  width: 100%;
+  height: 200%;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.blockPlanetarySystem {
+  position: absolute;
+  top: -615px;
+  left: 50px;
+  width: 2044px;
+  height: 2044px;
+}
+
+.centerEllipseSystem,
+.centerEllipseSystemImgShadow,
+.centerEllipseSystemImg,
+.commonOrbitStyles {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.centerEllipseSystemImg {
+  border-radius: 50%;
+  -webkit-box-shadow: 0px 0 150px 50px #29f8ff57;
+  box-shadow: 0px 0 150px 50px #29f8ff57;
+}
+
+.centerEllipseSystemImgShadow {
+  width: 264px;
+  height: 264px;
+  -webkit-box-shadow: inset 7px -3px 36px rgba(255, 255, 255, 0.73);
+  box-shadow: inset 7px -3px 36px rgba(255, 255, 255, 0.73);
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.ellipseSystemMain {
+  -webkit-filter: drop-shadow(7px 0px 212px rgba(255, 255, 255, 0.94));
+  filter: drop-shadow(7px 0px 212px rgba(255, 255, 255, 0.94));
+  border-radius: 50%;
+}
+
+.commonOrbitStyles {
+  border-radius: 50%;
+  border: 1px solid rgba(116, 145, 189, 0.52);
+}
+
+.orbit1 {
+  width: 644px;
+  height: 644px;
+  -webkit-animation-name: rotation;
+  animation-name: rotation;
+  -webkit-animation-duration: 25s;
+  animation-duration: 25s;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+}
+
+.orbit2 {
+  width: 860px;
+  height: 860px;
+}
+
+.orbit3 {
+  width: 1080px;
+  height: 1080px;
+  -webkit-animation-name: rotation;
+  animation-name: rotation;
+  -webkit-animation-duration: 50s;
+  animation-duration: 50s;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+}
+
+.orbit4 {
+  width: 1350px;
+  height: 1350px;
+}
+
+.orbit5 {
+  width: 1680px;
+  height: 1680px;
+}
+
+.orbit6 {
+  width: 2044px;
+  height: 2044px;
+}
+
+.planets {
+  position: absolute;
+  border-radius: 50%;
+}
+
+.planet1 {
+  background: -o-linear-gradient(235.2deg, #D1F4FF -7.27%, #1CFFAD 104.95%);
+  background: linear-gradient(214.8deg, #D1F4FF -7.27%, #1CFFAD 104.95%);
+  -webkit-filter: blur(20px);
+  filter: blur(20px);
+  top: 60%;
+  right: -12px;
+  width: 69px;
+  height: 69px;
+  -webkit-animation-name: pulse1;
+  animation-name: pulse1;
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+}
+
+.planet3 {
+  background: -o-linear-gradient(235.2deg, #4563FF -7.27%, #3DFFFF 104.95%);
+  background: linear-gradient(214.8deg, #4563FF -7.27%, #3DFFFF 104.95%);
+  -webkit-filter: blur(20px);
+  filter: blur(20px);
+  top: 72%;
+  left: 28px;
+  width: 97px;
+  height: 97px;
+  -webkit-animation-name: pulse3;
+  animation-name: pulse3;
+  -webkit-animation-duration: 5s;
+  animation-duration: 5s;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+}
+
+@-webkit-keyframes rotation {
+  0% {
+    -webkit-transform: translate(-50%, -50%) rotate(0deg);
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: translate(-50%, -50%) rotate(360deg);
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+
+@keyframes rotation {
+  0% {
+    -webkit-transform: translate(-50%, -50%) rotate(0deg);
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: translate(-50%, -50%) rotate(360deg);
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+
+@-webkit-keyframes pulse1 {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 #1CFFAD;
+    box-shadow: 0 0 0 0 #1CFFAD;
+  }
+
+  50% {
+    -webkit-box-shadow: 0 0 7px 10px #1CFFAD;
+    box-shadow: 0 0 7px 10px #1CFFAD;
+  }
+
+  100% {
+    -webkit-box-shadow: 0 0 0 0 #1CFFAD;
+    box-shadow: 0 0 0 0 #1CFFAD;
+  }
+}
+
+@keyframes pulse1 {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 #1CFFAD;
+    box-shadow: 0 0 0 0 #1CFFAD;
+  }
+
+  50% {
+    -webkit-box-shadow: 0 0 7px 10px #1CFFAD;
+    box-shadow: 0 0 7px 10px #1CFFAD;
+  }
+
+  100% {
+    -webkit-box-shadow: 0 0 0 0 #1CFFAD;
+    box-shadow: 0 0 0 0 #1CFFAD;
+  }
+}
+
+@-webkit-keyframes pulse3 {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 #4563FF;
+    box-shadow: 0 0 0 0 #4563FF;
+  }
+
+  50% {
+    -webkit-box-shadow: 0 0 7px 10px #4563FF;
+    box-shadow: 0 0 7px 10px #4563FF;
+  }
+
+  100% {
+    -webkit-box-shadow: 0 0 0 0 #4563FF;
+    box-shadow: 0 0 0 0 #4563FF;
+  }
+}
+
+@keyframes pulse3 {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 #4563FF;
+    box-shadow: 0 0 0 0 #4563FF;
+  }
+
+  50% {
+    -webkit-box-shadow: 0 0 7px 10px #4563FF;
+    box-shadow: 0 0 7px 10px #4563FF;
+  }
+
+  100% {
+    -webkit-box-shadow: 0 0 0 0 #4563FF;
+    box-shadow: 0 0 0 0 #4563FF;
+  }
+}
+
+@media screen and (max-width: 1600px) {
+  .blockPlanetarySystem {
+    left: -10%;
+  }
+}
+
+@media screen and (max-width: 1350px) {
+  .blockPlanetarySystem {
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .titleMain {
+    width: auto;
+  }
+}
